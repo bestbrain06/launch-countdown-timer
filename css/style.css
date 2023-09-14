@@ -123,3 +123,19 @@ p {
     height: 100px;
   }
 }
+
+.icons {
+  margin-block-start: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons img {
+  padding: 5px;
+}
+
+.icons img:hover {
+  background-color: var(--Soft-red);
+}
